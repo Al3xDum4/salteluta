@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../static/css/style.css" th:href="@{/css/style.css}"/>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Find Mattress</title>
+</head>
+<body>
+    <div class="container">
+            <form class="form">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="your_height" type="text" class="validate">
+                        <label for="your_height">Your Height</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="your weight" type="text" class="validate">
+                        <label for="your weight">Your Weight</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="allergies" type="text" class="validate">
+                        <label for="allergies">Allergies</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="sweating" type="text" class="validate">
+                        <label for="sweating">Sweating</label>
+                    </div>
+                </div>
+            </form>
+    </div>
+</body>
+</html>

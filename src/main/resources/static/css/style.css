@@ -1,0 +1,42 @@
+body {
+    font-size: 62.5%;
+    background-image: url("../img/muukii-PXPleXh2m7s-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+html, body {
+    height: 100%;
+}
+
+.background{
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    width: 60%;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    padding: 1rem !important;
+    margin: 0 auto;
+}
+
+.validate{
+    color: white;
+}
+
+/*.formcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
